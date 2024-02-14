@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+  <test thread-count="5" name="Testing.xml">
+  
+ 
+    <classes>
+      <class name="MobileTests.TC_MobileLoginTest_001"/>
+      <class name="MobileTests.TC_MobileBookAppointment_003"/>
+      <class name="MobileTests.TC_MobileRegisterTest_007"/>
+      <class name="MobileTests.TC_MobileSearchPatientTest_008"/>
+      <class name="MobileTests.TC_MobileAddPatientTest_004"/>
+      <class name="MobileTests.TC_MobileAddPrescriptionTest_002"/>
+      <class name="MobileTests.TC_MobileViewPrescriptionTest_005"/>
+      <class name="MobileTests.TC_MobileToDoListTest_006"/>
+      <class name="MobileTests.TC_MobilePatientVisit_009"/>
+      <class name="MobileTests.TC_MobileBillingTest_010"/>
+      <class name="MobileTests.TC_DrProfileTest_011"/>
+      
+   
+     
+     
+      
+    </classes>
+  </test> <!-- Testing.xml -->
+</suite> <!-- Suite -->
